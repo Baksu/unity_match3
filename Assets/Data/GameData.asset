@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385608962fbc401caa6834f33a1b9124, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  _pieceData:
+  - {fileID: 11400000, guid: a5e376d277e3e884989586ced83058e6, type: 2}
+  - {fileID: 11400000, guid: 7d9b28142e8884e42aa187b87e9e1cfe, type: 2}
+  - {fileID: 11400000, guid: ffc0d8cab935a1d4697f318025785ce5, type: 2}
+  - {fileID: 11400000, guid: cfb38383b0b03f040aa243ca80666738, type: 2}
+  - {fileID: 11400000, guid: 5d17bbb0f4197724e8f52e66c7355c11, type: 2}
+  _gridData: {fileID: 11400000, guid: 504ed6412fdcbd6439a65eb67a20ce18, type: 2}
+  _pointsForCell: 5
+  _pointsForElementsMatched:
+  - _elements: 3
+    _points: 5
+  - _elements: 4
+    _points: 15
+  - _elements: 5
+    _points: 40
+  _gameplayTimeInSeconds: 30
